@@ -1,0 +1,123 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 24
+/repos/webrepo/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/webrepo/!svn/ver/13/UnixProgramming/CStudy/Chapter04
+END
+user.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/user.c
+END
+hostget.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/hostget.c
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/.cproject
+END
+ctime.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/ctime.c
+END
+logmask.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/logmask.c
+END
+showenv.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/showenv.c
+END
+gmtime.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/gmtime.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/Makefile
+END
+environ.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/environ.c
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/.project
+END
+longopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/longopt.c
+END
+syslog.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/syslog.c
+END
+limits.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/12/UnixProgramming/CStudy/Chapter04/limits.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/README
+END
+envtime.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/envtime.c
+END
+argopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/argopt.c
+END
+args.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/args.c
+END
+strftime.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/strftime.c
+END
+tmpnam.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/11/UnixProgramming/CStudy/Chapter04/tmpnam.c
+END

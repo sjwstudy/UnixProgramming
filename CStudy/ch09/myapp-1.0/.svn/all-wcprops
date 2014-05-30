@@ -1,0 +1,75 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 24
+/repos/webrepo/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/webrepo/!svn/ver/29/UnixProgramming/CStudy/ch09/myapp-1.0
+END
+import1.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/import1.c
+END
+import2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/import2.c
+END
+import3.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/import3.c
+END
+2.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/2.c
+END
+3.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/3.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/Makefile
+END
+a.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/a.h
+END
+foo.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/foo.c
+END
+b.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/b.h
+END
+c.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/c.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/webrepo/!svn/ver/28/UnixProgramming/CStudy/ch09/myapp-1.0/main.c
+END

@@ -1,0 +1,51 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 24
+/repos/webrepo/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/webrepo/!svn/ver/2/UnixProgramming/CStudy/Chapter1
+END
+fred.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/webrepo/!svn/ver/1/UnixProgramming/CStudy/Chapter1/fred.c
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/webrepo/!svn/ver/2/UnixProgramming/CStudy/Chapter1/.cproject
+END
+hello.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/webrepo/!svn/ver/1/UnixProgramming/CStudy/Chapter1/hello.c
+END
+program.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/webrepo/!svn/ver/1/UnixProgramming/CStudy/Chapter1/program.c
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/webrepo/!svn/ver/2/UnixProgramming/CStudy/Chapter1/.project
+END
+bill.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/webrepo/!svn/ver/3/UnixProgramming/CStudy/Chapter1/bill.c
+END
+lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/webrepo/!svn/ver/1/UnixProgramming/CStudy/Chapter1/lib.h
+END
