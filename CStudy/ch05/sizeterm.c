@@ -7,7 +7,7 @@ int main()
 {
     int nrows, ncolumns;
 
-    setupterm(NULL, fileno(stdout), (int *)0);
+    setupter (NULL, fileno(stdout), (int *)0);
     nrows = tigetnum("lines");
     ncolumns = tigetnum("cols");
     printf("This terminal has %d columns and %d rows\n", ncolumns, nrows);
