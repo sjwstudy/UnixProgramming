@@ -3,10 +3,11 @@
 #include <stdio.h>
 #include <fcntl.h>
 
+/*
 #include <ndbm.h>
-/* On some systems you need to replace the above with
-#include <gdbm-ndbm.h>
+On some systems you need to replace the above with
 */
+#include <gdbm-ndbm.h>
 
 #include <string.h>
 
@@ -30,13 +31,13 @@ int main() {
 
     datum key_datum;
     datum data_datum;
-    
+
     DBM *dbm_ptr;
 
     dbm_ptr = dbm_open(TEST_DB_FILE, O_RDWR | O_CREAT, 0666);
     if (!dbm_ptr) {
         fprintf(stderr, "Failed to open database\n");
-        exit(EXIT_FAILURE);        
+        exit(EXIT_FAILURE);
     }
 
         /* put some data in the structures */
@@ -83,8 +84,8 @@ int main() {
         printf("Nothing deleted for key %s\n", key_to_use);
     }
 
-    for (key_datum = dbm_firstkey(dbm_ptr); 
-             key_datum.dptr; 
+    for (key_datum = dbm_firstkey(dbm_ptr);
+             key_datum.dptr;
              key_datum = dbm_nextkey(dbm_ptr)) {
         data_datum = dbm_fetch(dbm_ptr, key_datum);
         if (data_datum.dptr) {
@@ -99,7 +100,7 @@ int main() {
             printf("Woops - no data found for key %s\n", key_to_use);
         }
     } /* for each key */
-    
+
     dbm_close(dbm_ptr);
 
     exit(EXIT_SUCCESS);
