@@ -1,6 +1,6 @@
----
---- SQL for creating the sample application database
----
+--
+-- SQL for creating the sample application database
+--
 
 -- Drop any existing tables
 -- Uncomment the next lines to drop the tables if needed.
@@ -10,7 +10,7 @@
 
 create table cd (
 	id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,
-	title VARCHAR(70) NOT NULL,	    
+	title VARCHAR(70) NOT NULL,
 	artist_id INTEGER NOT NULL,
 	catalogue VARCHAR(30) NOT NULL
 );
@@ -26,5 +26,3 @@ create table track (
 	title VARCHAR(70),
 	PRIMARY KEY(cd_id, track_id)
 );
-
-

@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "mysql.h"
+#include <mysql.h>
 
 int main(int argc, char *argv[]) {
 	MYSQL my_connection;
 
 	mysql_init(&my_connection);
-	if (mysql_real_connect(&my_connection, "localhost", "sss", "",
-			"test", 0, NULL, 0)) {
+	if (mysql_real_connect(&my_connection, "localhost", "sjw", "",
+			"blpcd", 0, NULL, 0)) {
 		printf("Connection success\n");
 		mysql_close(&my_connection);
 	} else {
@@ -21,4 +21,3 @@ int main(int argc, char *argv[]) {
 
 	return EXIT_SUCCESS;
 }
-

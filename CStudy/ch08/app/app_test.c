@@ -11,7 +11,7 @@ int main() {
 	int cd_id;
 	int res, i;
 
-	database_start("sss", "sss");
+	database_start("sjw", "jw1218");
 
 	res = add_cd("Mahler", "Symphony No 1", "4596102", &cd_id);
 	printf("Result of adding a cd was %d, cd_id is %d\n", res, cd_id);

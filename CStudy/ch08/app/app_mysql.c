@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "mysql.h"
+#include <mysql.h>
 #include "app_mysql.h"
 
 static MYSQL my_connection;
