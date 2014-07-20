@@ -6,9 +6,9 @@ typedef struct {
 item array[] = { { "bill", 3 }, { "neil", 4 }, { "john", 2 }, { "rick", 5 }, {
 		"alex", 1 }, };
 
-sort(item *a, int n) {
+void sort(item *a, int n) {
 	int i = 0, j = 0;
-	int s;
+	int s = 0;
 
 	for (; i < n & s != 0; i++) {
 		s = 0;
@@ -24,6 +24,6 @@ sort(item *a, int n) {
 	}
 }
 
-main() {
+int main() {
 	sort(array, 5);
 }

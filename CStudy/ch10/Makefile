@@ -3,8 +3,10 @@
 
 DEBUG=debug1 debug2 debug3 debug4
 CINFO=cinfo assert
-MEMORY=efence checker
+#MEMORY=efence checker
+MEMORY=checker
 
+CC=gcc
 CFLAGS=-g
 LDFLAGS=-g
 
@@ -12,14 +14,22 @@ ALL= $(DEBUG) $(CINFO) $(MEMORY)
 
 all: $(ALL)
 
+cinfo: cinfo.o
+	gcc -o cinfo cinfo.o $(LDFLAGS)
+
 cinfo.o: cinfo.c
-	cc -c $(CFLAGS) -DDEBUG cinfo.c
+	gcc -c $(CFLAGS) -DDEBUG cinfo.c
 
 assert: assert.o
-	cc -o assert $(LDFLAGS) assert.o -lm
+	gcc -o assert $(LDFLAGS) assert.o -lm
 
-efence: efence.o
-	cc -o efence $(LDFLAGS) efence.o -lefence
+# efence: efence.o
+# 	gcc -o efence $(LDFLAGS) efence.o -lefence
+
+checker: checker.o
+	gcc -o checker checker.o $(LDFLAGS)
 
 clean:
 	@rm -f $(ALL) *~ *.o
+
+debug: debug1 debug2 debug3 debug4
