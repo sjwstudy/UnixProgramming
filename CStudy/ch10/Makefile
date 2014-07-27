@@ -1,7 +1,7 @@
 # Makefile for Beginning Linux Programming 3rd Edition
 # Chapter 10
 
-DEBUG=debug1 debug2 debug3 debug4
+DEBUG=debug1 debug2 debug3 debug4 debug0
 CINFO=cinfo assert
 #MEMORY=efence checker
 MEMORY=checker
@@ -32,4 +32,4 @@ checker: checker.o
 clean:
 	@rm -f $(ALL) *~ *.o
 
-debug: debug1 debug2 debug3 debug4
+debug: debug1 debug2 debug3 debug4 debug0
