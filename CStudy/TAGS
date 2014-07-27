@@ -1,0 +1,620 @@
+
+ch10/Makefile,221
+DEBUG=debug1 debug2 debug3 debug4 debug0DEBUG4,69
+CINFO=cinfo assertCINFO5,110
+MEMORY=checkerMEMORY7,152
+CC=gccCC9,168
+CFLAGS=-gCFLAGS10,175
+LDFLAGS=-gLDFLAGS11,185
+ALL= $(DEBUG) $(CINFO) $(MEMORY)ALL13,197
+
+ch10/assert.c,61
+double my_sqrt(double x)my_sqrt6,78
+int main()main12,150
+
+ch10/checker.c,21
+int main()main4,40
+
+ch10/debug4.c,222
+/*   2  */      char data[4096];data2,29
+/*   3  */      int key;key3,62
+/*   4  */  } item;item4,87
+/*   6  */  item array[] = {array6,118
+/*  14  */  void sort(a,n)sort14,318
+/*  34  */  int main()main34,999
+
+ch10/debug2.c,215
+	char *data;data4,37
+	int key;key5,50
+} item;item6,60
+item array[] = { { "bill", 3 }, { "neil", 4 }, { "john", 2 }, { "rick", 5 }, {array8,69
+void sort(item *a, int n) {sort11,167
+int main() {main29,418
+
+ch10/debug1.c,214
+	char *data;data2,17
+	int key;key3,30
+} item;item4,40
+item array[] = { { "bill", 3 }, { "neil", 4 }, { "john", 2 }, { "rick", 5 }, {array6,49
+void sort(item *a, int n) {sort9,147
+int main() {main27,398
+
+ch10/debug3.c,220
+	char data[4096];data4,37
+	int key;key5,55
+} item;item6,65
+item array[] = { { "bill", 3 }, { "neil", 4 }, { "john", 2 }, { "rick", 5 }, {array8,74
+void sort(item *a, int n) {sort11,172
+int main() {main29,419
+
+ch10/efence.c,21
+int main()main4,40
+
+ch10/debug0.c,216
+	char *data;data4,38
+	int key;key5,51
+} item;item6,61
+item array[] = { { "bill", 3 }, { "neil", 4 }, { "john", 2 }, { "rick", 5 }, {array8,70
+void sort(item *a, int n) {sort11,168
+int  main() {main29,415
+
+ch10/cinfo.c,21
+int main()main4,40
+
+ch09/Makefile,190
+CC = gccCC4,29
+INSTDIR = /usr/local/binINSTDIR7,58
+MANDIR = /usr/local/man/man1MANDIR8,83
+INCLUDE = .INCLUDE11,144
+CFLAGS = -g -Wall -ansiCFLAGS14,183
+MYLIB = mylib.aMYLIB20,275
+
+ch09/import3.c,69
+static char *RCSinfo = "$Id$";RCSinfo11,180
+int main()main13,212
+
+ch09/b.h,0
+
+ch09/main.c,22
+int main()main8,108
+
+ch09/myapp-1.0/Makefile,190
+CC = gccCC4,29
+INSTDIR = /usr/local/binINSTDIR7,58
+MANDIR = /usr/local/man/man1MANDIR8,83
+INCLUDE = .INCLUDE11,144
+CFLAGS = -g -Wall -ansiCFLAGS14,183
+MYLIB = mylib.aMYLIB20,275
+
+ch09/myapp-1.0/import3.c,69
+static char *RCSinfo = "$Id$";RCSinfo11,180
+int main()main13,212
+
+ch09/myapp-1.0/b.h,0
+
+ch09/myapp-1.0/main.c,22
+int main()main8,108
+
+ch09/myapp-1.0/foo.c,21
+int main()main4,40
+
+ch09/myapp-1.0/a.h,0
+
+ch09/myapp-1.0/2.c,40
+void function_two() {function_two5,41
+
+ch09/myapp-1.0/c.h,0
+
+ch09/myapp-1.0/3.c,44
+void function_three() {function_three5,41
+
+ch09/myapp-1.0/import1.c,22
+int main()main9,156
+
+ch09/myapp-1.0/import2.c,22
+int main()main9,156
+
+ch09/foo.c,21
+int main()main4,40
+
+ch09/a.h,0
+
+ch09/2.c,40
+void function_two() {function_two5,41
+
+ch09/c.h,0
+
+ch09/3.c,44
+void function_three() {function_three5,41
+
+ch09/import1.c,22
+int main()main9,156
+
+ch09/import2.c,22
+int main()main9,156
+
+ch09/cvs-sp/hello.c,21
+int main()main4,40
+
+ch09/cvs-sp/Makefile,0
+
+ch09/cvs-sp/junk/wrox/chap9-cvs/hello.c,21
+int main()main4,40
+
+ch09/cvs-sp/junk/wrox/chap9-cvs/Makefile,0
+
+ch03/simple_write.c,21
+int main()main4,41
+
+ch03/Makefile,196
+SIMPLE=simple_write simple_readSIMPLE4,68
+COPY=copy_system copy_block copy_stdioCOPY5,100
+DIR=printdir printdir2DIR6,139
+MMAP=mmapMMAP7,162
+ALL= $(SIMPLE) $(COPY) $(DIR) $(MMAP)ALL9,173
+
+ch03/printdir2.c,98
+void printdir(char *dir, int depth)printdir12,335
+int main(int argc, char* argv[])main42,1179
+
+ch03/copy_block.c,21
+int main()main6,82
+
+ch03/copy_system.c,21
+int main()main6,82
+
+ch03/mmap.c,148
+    int integer;integer12,282
+    char string[24];string13,299
+} RECORD;RECORD14,320
+#define NRECORDS NRECORDS16,331
+int main()main18,355
+
+ch03/copy_stdio.c,21
+int main()main4,40
+
+ch03/printdir.c,76
+void printdir(char *dir, int depth)printdir12,335
+int main()main42,1178
+
+ch03/simple_read.c,21
+int main()main4,41
+
+ch06/subscl.c,23
+int main() main7,158
+
+ch06/Makefile,65
+CFLAGS=-I/usr/includeCFLAGS2,48
+LDFLAGS=-lncursesLDFLAGS3,70
+
+ch06/ipmode.c,87
+#define PW_LEN PW_LEN8,149
+#define NAME_LEN NAME_LEN9,168
+int main() {main11,190
+
+ch06/screen1.c,24
+int main() {main7,125
+
+ch06/app/Makefile,65
+CFLAGS=-I/usr/includeCFLAGS2,48
+LDFLAGS=-lncursesLDFLAGS3,70
+
+ch06/app/curses_app.c,1538
+#define MAX_STRING MAX_STRING53,1584
+#define MAX_ENTRY MAX_ENTRY54,1646
+#define MESSAGE_LINE MESSAGE_LINE56,1709
+#define ERROR_LINE ERROR_LINE57,1770
+#define Q_LINE Q_LINE58,1832
+#define PROMPT_LINE PROMPT_LINE59,1894
+static char current_cd[MAX_STRING] = "\0";current_cd71,2283
+static char current_cat[MAX_STRING];current_cat72,2326
+const char *title_file = "title.cdb";title_file89,2817
+const char *tracks_file = "tracks.cdb";tracks_file90,2855
+const char *temp_file = "cdb.tmp";temp_file91,2895
+char *main_menu[] = { "aadd new CD", "ffind CD",main_menu114,3532
+char *extended_menu[] = { "aadd new CD", "ffind CD",extended_menu120,3710
+int main() {main124,3904
+int getchoice(char *greet, char *choices[]) {getchoice174,4506
+void draw_menu(char *options[], int current_highlight, int start_row,draw_menu229,5539
+void clear_all_screen() {clear_all_screen260,6233
+void get_return() {get_return276,6530
+int get_confirm() {get_confirm291,6829
+void insert_title(char *cdtitle) {insert_title326,7358
+void get_string(char *string) {get_string342,7675
+void add_record() {add_record357,7903
+void count_cds() {count_cds404,8984
+void find_cd() {find_cd435,9621
+void remove_tracks() {remove_tracks483,10730
+void remove_cd() {remove_cd513,11360
+#define BOXED_LINES BOXED_LINES555,12336
+#define BOXED_ROWS BOXED_ROWS556,12362
+#define BOX_LINE_POS BOX_LINE_POS557,12388
+#define BOX_ROW_POS BOX_ROW_POS558,12413
+void list_tracks() {list_tracks562,12495
+void update_cd() {update_cd654,14681
+
+ch06/moveadd.c,24
+int main() main11,258
+
+ch06/keypad.c,72
+#define LOCAL_ESCAPE_KEY LOCAL_ESCAPE_KEY7,154
+int main() main9,186
+
+ch06/pad.c,24
+int main() main10,316
+
+ch06/multiw1.c,22
+int main()main7,119
+
+ch06/color.c,23
+int main() main9,208
+
+ch07/Makefile,38
+ LIBS=-lgdbm_compat -lgdbmLIBS7,218
+
+ch07/memory2.c,98
+#define A_MEGABYTE A_MEGABYTE5,60
+#define PHY_MEM_MEGS	PHY_MEM_MEGS6,93
+int main()main8,158
+
+ch07/dbm1.c,268
+#define TEST_DB_FILE TEST_DB_FILE14,199
+#define ITEMS_USED ITEMS_USED15,237
+struct test_data {test_data18,293
+    char misc_chars[15];misc_chars19,312
+    int  any_integer;any_integer20,337
+    char more_chars[21];more_chars21,359
+int main() {main24,388
+
+ch07/memory4.c,49
+#define ONE_K ONE_K4,41
+int main() {main6,63
+
+ch07/app/Makefile,83
+INCLUDE=/usr/include/gdbmINCLUDE4,19
+LIBS=-lgdbmLIBS5,45
+CFLAGS=CFLAGS10,205
+
+ch07/app/access.c,1098
+#define _XOPEN_SOURCE_XOPEN_SOURCE5,75
+#define CDC_FILE_BASE CDC_FILE_BASE18,328
+#define CDT_FILE_BASE CDT_FILE_BASE19,361
+#define CDC_FILE_DIR CDC_FILE_DIR20,394
+#define CDC_FILE_PAG CDC_FILE_PAG21,431
+#define CDT_FILE_DIR CDT_FILE_DIR22,468
+#define CDT_FILE_PAG CDT_FILE_PAG23,504
+static DBM *cdc_dbm_ptr = NULL;cdc_dbm_ptr26,600
+static DBM *cdt_dbm_ptr = NULL;cdt_dbm_ptr27,632
+int database_initialize(const int new_database)database_initialize33,797
+void database_close(void)database_close60,1578
+cdc_entry get_cdc_entry(const char *cd_catalog_ptr)get_cdc_entry73,1955
+cdt_entry get_cdt_entry(const char *cd_catalog_ptr, const int track_no)get_cdt_entry107,3234
+int add_cdc_entry(const cdc_entry entry_to_add)add_cdc_entry139,4417
+int add_cdt_entry(const cdt_entry entry_to_add)add_cdt_entry170,5452
+int del_cdc_entry(const char *cd_catalog_ptr) {del_cdc_entry199,6419
+int del_cdt_entry(const char *cd_catalog_ptr, const int track_no) {del_cdt_entry223,7150
+cdc_entry search_cdc_entry(const char *cd_catalog_ptr, int *first_call_ptr)search_cdc_entry251,8124
+
+ch07/app/app_ui.c,1580
+#define _XOPEN_SOURCE_XOPEN_SOURCE1,0
+#define TMP_STRING_LEN TMP_STRING_LEN10,125
+    mo_invalid,mo_invalid15,307
+    mo_add_cat,mo_add_cat16,323
+    mo_add_tracks,mo_add_tracks17,339
+    mo_del_cat,mo_del_cat18,358
+    mo_find_cat,mo_find_cat19,374
+    mo_list_cat_tracks,mo_list_cat_tracks20,391
+    mo_del_tracks,mo_del_tracks21,415
+    mo_count_entries,mo_count_entries22,434
+    mo_exitmo_exit23,456
+} menu_options;menu_options24,468
+int main(int argc, char *argv[]) {main42,1235
+static void announce(void) {announce107,3178
+static menu_options show_menu(const cdc_entry *cdc_selected) {show_menu111,3303
+static int get_confirm(const char *question) {get_confirm162,5473
+static int enter_new_cat_entry(cdc_entry *entry_to_update) {enter_new_cat_entry174,5762
+static void enter_new_track_entries(const cdc_entry *entry_to_add_to) {enter_new_track_entries209,6881
+static void del_cat_entry(const cdc_entry *entry_to_delete) {del_cat_entry263,8880
+static void del_track_entries(const cdc_entry *entry_to_delete) {del_track_entries280,9389
+static cdc_entry find_cat(void) {find_cat293,9765
+static void list_tracks(const cdc_entry *entry_to_use) {list_tracks331,10917
+static void count_all_entries(void) {count_all_entries347,11388
+static void display_cdc(const cdc_entry *cdc_to_show) {display_cdc378,12287
+static void display_cdt(const cdt_entry *cdt_to_show) {display_cdt385,12564
+static void strip_return(char *string_to_strip) {strip_return389,12712
+static int command_mode(int argc, char *argv[]) {command_mode397,12909
+
+ch07/app/cd_data.h,663
+#define CAT_CAT_LEN CAT_CAT_LEN10,178
+#define CAT_TITLE_LEN CAT_TITLE_LEN11,207
+#define CAT_TYPE_LEN CAT_TYPE_LEN12,236
+#define CAT_ARTIST_LEN CAT_ARTIST_LEN13,265
+    char catalog[CAT_CAT_LEN + 1];catalog16,312
+    char title[CAT_TITLE_LEN + 1];title17,347
+    char type[CAT_TYPE_LEN + 1];type18,382
+    char artist[CAT_ARTIST_LEN + 1];artist19,415
+} cdc_entry;cdc_entry20,452
+#define TRACK_CAT_LEN TRACK_CAT_LEN24,511
+#define TRACK_TTEXT_LEN TRACK_TTEXT_LEN25,549
+    char catalog[TRACK_CAT_LEN + 1];catalog28,596
+    int  track_no;track_no29,633
+    char track_txt[TRACK_TTEXT_LEN + 1];track_txt30,652
+} cdt_entry;cdt_entry31,693
+
+ch07/memory5a.c,23
+int main() {main6,61
+
+ch07/memory5b.c,23
+int main() {main6,61
+
+ch07/lock5.c,81
+const char *test_file = "/tmp/test_lock";test_file7,80
+int main() {main9,123
+
+ch07/lock4.c,189
+const char *test_file = "/tmp/test_lock";test_file7,80
+#define SIZE_TO_TRY SIZE_TO_TRY8,122
+int main() {main13,191
+void show_lock_info(struct flock *to_show) {show_lock_info83,2443
+
+ch07/memory3.c,49
+#define ONE_K ONE_K5,60
+int main() {main7,82
+
+ch07/memory1.c,59
+#define A_MEGABYTE A_MEGABYTE5,60
+int main() {main7,94
+
+ch07/memory6.c,47
+#define ONE_K ONE_K5,41
+int main()main7,63
+
+ch07/lock2.c,81
+const char *lock_file = "/tmp/LCK.test2";lock_file7,98
+int main() {main9,141
+
+ch07/lock1.c,21
+int main()main7,98
+
+ch07/dbm2.c,268
+#define TEST_DB_FILE TEST_DB_FILE14,199
+#define ITEMS_USED ITEMS_USED15,237
+struct test_data {test_data18,293
+    char misc_chars[15];misc_chars19,312
+    int  any_integer;any_integer20,337
+    char more_chars[21];more_chars21,359
+int main() {main24,388
+
+ch07/lock3.c,81
+const char *test_file = "/tmp/test_lock";test_file6,79
+int main() {main8,122
+
+ch08/Makefile,79
+CFLAGS=-I/usr/include/mysqlCFLAGS13,243
+LDFLAGS=-lmysqlclientLDFLAGS15,295
+
+ch08/update1.c,45
+int main(int argc, char *argv[]) {main6,60
+
+ch08/select1.c,151
+MYSQL my_connection;my_connection6,60
+MYSQL_RES *res_ptr;res_ptr7,81
+MYSQL_ROW sqlrow;sqlrow8,101
+int main(int argc, char *argv[]) {main10,120
+
+ch08/select4.c,239
+MYSQL my_connection;my_connection6,60
+MYSQL_RES *res_ptr;res_ptr7,81
+MYSQL_ROW sqlrow;sqlrow8,101
+int main(int argc, char *argv[]) {main13,164
+void display_header() {display_header56,1325
+void display_row() {display_row86,2125
+
+ch08/create_children.sql,189
+CREATE TABLE children (children6,38
+CREATE TABLE children (children.childno6,38
+   childno int(11) NOT NULL auto_increment,children.fname7,62
+   fname varchar(30),children.age8,106
+
+ch08/select3.c,192
+MYSQL my_connection;my_connection6,60
+MYSQL_RES *res_ptr;res_ptr7,81
+MYSQL_ROW sqlrow;sqlrow8,101
+int main(int argc, char *argv[]) {main12,141
+void display_row() {display_row51,1122
+
+ch08/app/Makefile,0
+
+ch08/app/create_tables.sql,533
+create table cd (cd11,207
+create table cd (cd.id11,207
+	id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,cd.title12,225
+	title VARCHAR(70) NOT NULL,cd.artist_id13,274
+	artist_id INTEGER NOT NULL,cd.catalogue14,303
+create table artist (artist18,368
+create table artist (artist.id18,368
+	id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,artist.name19,390
+create table track (track23,471
+create table track (track.cd_id23,471
+	cd_id INTEGER NOT NULL,track.track_id24,492
+	track_id INTEGER NOT NULL,track.title25,517
+
+ch08/app/app_test.c,23
+int main() {main7,84
+
+ch08/app/app_mysql.h,446
+struct current_cd_st {current_cd_st2,90
+	int artist_id;artist_id3,113
+	int cd_id;cd_id4,129
+	char artist_name[100];artist_name5,141
+	char title[100];title6,165
+	char catalogue[100];catalogue7,183
+struct current_tracks_st {current_tracks_st11,250
+	int cd_id;cd_id12,277
+	char track[20][100];track13,289
+#define MAX_CD_RESULT MAX_CD_RESULT16,315
+struct cd_search_st {cd_search_st17,340
+	int cd_id[MAX_CD_RESULT];cd_id18,362
+
+ch08/app/insert_data.sql,0
+
+ch08/app/app_mysql.c,697
+static MYSQL my_connection;my_connection8,103
+static int dbconnected = 0;dbconnected9,131
+int database_start(char *name, char *pwd) {database_start13,201
+void database_end() {database_end29,588
+int add_cd(char *artist, char *title, char *catalogue, int *cd_id) {add_cd35,699
+static int get_artist_id(char *artist) {get_artist_id81,1798
+int add_tracks(struct current_tracks_st *tracks) {add_tracks135,3149
+int get_cd(int cd_id, struct current_cd_st *dest) {get_cd162,3727
+int get_cd_tracks(int cd_id, struct current_tracks_st *dest) {get_cd_tracks201,4712
+int find_cds(char *search_str, struct cd_search_st *dest) {find_cds237,5532
+int delete_cd(int cd_id) {delete_cd276,6518
+
+ch08/app/pop_tables.sql,0
+
+ch08/connect1.c,45
+int main(int argc, char *argv[]) {main6,60
+
+ch08/connect2.c,45
+int main(int argc, char *argv[]) {main6,60
+
+ch08/insert2.c,45
+int main(int argc, char *argv[]) {main6,60
+
+ch08/select2.c,151
+MYSQL my_connection;my_connection6,60
+MYSQL_RES *res_ptr;res_ptr7,81
+MYSQL_ROW sqlrow;sqlrow8,101
+int main(int argc, char *argv[]) {main10,120
+
+ch08/insert1.c,45
+int main(int argc, char *argv[]) {main6,60
+
+ch01/hello.c,21
+int main()main4,40
+
+ch01/bill.c,32
+void bill(char *arg)bill11,96
+
+ch01/makefile,0
+
+ch01/program.c,23
+int main()main11,116
+
+ch01/lib.h,0
+
+ch01/fred.c,30
+void fred(int arg)fred11,96
+
+ch04/Makefile,331
+ARGS=args argopt longoptARGS4,68
+ENV=environ showenvENV5,93
+TIME=envtime gmtime ctime strftimeTIME6,113
+TMP=tmpnamTMP7,148
+USER=userUSER8,159
+HOST=hostgetHOST9,169
+LOG=syslog logmaskLOG10,182
+RES=limitsRES11,201
+LDFLAGS=-lmLDFLAGS13,213
+ALL= $(ARGS) $(ENV) $(TIME) $(TMP) $(USER) $(HOST) $(LOG) $(RES)ALL15,226
+
+ch04/strftime.c,63
+#define _XOPEN_SOURCE _XOPEN_SOURCE1,0
+int main()main7,137
+
+ch04/gmtime.c,21
+int main()main5,58
+
+ch04/limits.c,47
+void work()work14,384
+int main()main34,879
+
+ch04/user.c,22
+int main()main7,100
+
+ch04/showenv.c,21
+int main()main6,64
+
+ch04/argopt.c,43
+int main(int argc, char *argv[])main5,60
+
+ch04/syslog.c,21
+int main()main5,60
+
+ch04/environ.c,44
+int main(int argc, char *argv[])main7,181
+
+ch04/ctime.c,21
+int main()main5,58
+
+ch04/args.c,43
+int main(int argc, char *argv[])main4,40
+
+ch04/envtime.c,21
+int main()main6,78
+
+ch04/hostget.c,21
+int main()main6,85
+
+ch04/logmask.c,21
+int main()main6,80
+
+ch04/longopt.c,81
+#define _GNU_SOURCE_GNU_SOURCE5,60
+int main(int argc, char *argv[])main8,101
+
+ch04/tmpnam.c,21
+int main()main4,40
+
+ch05/Makefile,103
+MENU=menu1 menu2 menu3 menu4MENU4,68
+TERMIOS=passwordTERMIOS6,98
+ALL= $(MENU) $(TERMIOS)ALL8,116
+
+ch05/menu2.c,111
+char *menu[] = {menu5,60
+int main()main14,204
+int getchoice(char *greet, char *choices[])getchoice31,517
+
+ch05/menu5.c,261
+static FILE *output_stream = (FILE *)0;output_stream8,119
+char *menu[] = {menu10,160
+int main()main20,366
+int getchoice(char *greet, char *choices[], FILE *in, FILE *out)getchoice58,1394
+int char_to_terminal(int char_to_write)char_to_terminal107,2625
+
+ch05/password.c,61
+#define PASSWORD_LEN PASSWORD_LEN5,61
+int main()main7,85
+
+ch05/menu4.c,192
+char *menu[] = { "a - add new record", "d - delete record", "q - quit",menu6,81
+int main() {main11,230
+int getchoice(char *greet, char *choices[], FILE *in, FILE *out) {getchoice47,1149
+
+ch05/badterm.c,21
+int main()main6,78
+
+ch05/menu1.c,111
+char *menu[] = {menu4,40
+int main()main13,184
+int getchoice(char *greet, char *choices[])getchoice25,386
+
+ch05/menu3.c,132
+char *menu[] = {menu5,60
+int main()main14,225
+int getchoice(char *greet, char *choices[], FILE *in, FILE *out)getchoice38,751
+
+ch05/sizeterm.c,21
+int main()main6,78
+
+ch05/kbhit.c,363
+static struct termios initial_settings, new_settings;initial_settings6,81
+static struct termios initial_settings, new_settings;new_settings6,81
+static int peek_character = -1;peek_character7,135
+int main()main14,241
+void init_keyboard()init_keyboard31,504
+void close_keyboard()close_keyboard43,819
+int kbhit()kbhit48,892
+int readch()readch68,1247

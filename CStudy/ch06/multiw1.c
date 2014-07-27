@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <curses.h>
 
-int main() 
+int main()
 {
     WINDOW *new_window_ptr;
     WINDOW *popup_window_ptr;
@@ -15,7 +15,8 @@ int main()
     initscr();
 
 /*  Then we fill the base window with characters,
-    refreshing the actual screen once the logical screen has been filled:
+    refreshing the actual screen once the logical screen has been filled: */
+
     move(5, 5);
     printw("%s", "Testing multiple windows");
     refresh();
@@ -36,7 +37,7 @@ int main()
 
     new_window_ptr = newwin(10, 20, 5, 5);
     mvwprintw(new_window_ptr, 2, 2, "%s", "Hello World");
-    mvwprintw(new_window_ptr, 5, 2, "%s", 
+    mvwprintw(new_window_ptr, 5, 2, "%s",
               "Notice how very long lines wrap inside the window");
 
     wrefresh(new_window_ptr);
@@ -88,15 +89,15 @@ refresh the screen, the window pointed to by new_window_ptr is obscured.  */
     wclear(new_window_ptr);
     wrefresh(new_window_ptr);
     sleep(2);
-    
+
     delwin(new_window_ptr);
 
     touchwin(popup_window_ptr);
     wrefresh(popup_window_ptr);
     sleep(2);
-    
+
     delwin(popup_window_ptr);
-    
+
     touchwin(stdscr);
     refresh();
     sleep(2);
@@ -104,4 +105,3 @@ refresh the screen, the window pointed to by new_window_ptr is obscured.  */
     endwin();
     exit(EXIT_SUCCESS);
 }
-

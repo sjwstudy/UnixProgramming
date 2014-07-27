@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "mysql.h"
+#include <mysql.h>
 
 int main(int argc, char *argv[]) {
 	MYSQL *conn_ptr;
@@ -12,8 +12,8 @@ int main(int argc, char *argv[]) {
 		return EXIT_FAILURE;
 	}
 
-	conn_ptr = mysql_real_connect(conn_ptr, "localhost", "sss", "sss",
-			"test", 0, NULL, 0);
+	conn_ptr = mysql_real_connect(conn_ptr, "localhost", "sjw", "jw1218",
+			"blpcd", 0, NULL, 0);
 
 	if (conn_ptr) {
 		printf("Connection success\n");
@@ -25,4 +25,3 @@ int main(int argc, char *argv[]) {
 
 	return EXIT_SUCCESS;
 }
-

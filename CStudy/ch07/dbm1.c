@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <fcntl.h>
-
+/*
 #include <ndbm.h>
-/* On some systems you need to replace the above with
-#include <gdbm-ndbm.h>
+On some systems you need to replace the above with
 */
+#include <gdbm-ndbm.h>
 
 
 #include <string.h>
@@ -31,7 +31,7 @@ int main() {
 
     datum key_datum;
     datum data_datum;
-    
+
     DBM *dbm_ptr;
 
     dbm_ptr = dbm_open(TEST_DB_FILE, O_RDWR | O_CREAT, 0666);

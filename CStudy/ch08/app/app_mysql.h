@@ -1,4 +1,3 @@
-
 /* A simplistic structure to represent the current CD, excluding the track information */
 struct current_cd_st {
 	int artist_id;
@@ -34,4 +33,3 @@ int get_cd_tracks(int cd_id, struct current_tracks_st *dest);
 
 /* Function for deleting items */
 int delete_cd(int cd_id);
-
